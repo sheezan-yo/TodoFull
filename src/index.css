@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+.heightMax {
+  height: calc(100vh - 56px);
+}
+/* 
+.heighttbf {
+  min-height: 75%;
+} */
