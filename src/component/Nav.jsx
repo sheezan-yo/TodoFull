@@ -9,6 +9,10 @@ function Nav({ isLoggedin }) {
           <nav className="flex justify-between items-center">
             <div>
               <p className="text-lg font-medium">UserName</p>
+              <p>
+                Don't add sensitive info{" "}
+                <span className="font-medium">(as no authentication)</span>
+              </p>
             </div>
             <div>
               <Link to="/">
@@ -31,6 +35,7 @@ function Nav({ isLoggedin }) {
             <p className="text-lg font-medium">
               Create Account or Login to access app
             </p>
+            <p>Add any fake info for test, Authentication is not done yet...</p>
           </div>
           <div className="flex gap-3">
             <Link to="/signup">
