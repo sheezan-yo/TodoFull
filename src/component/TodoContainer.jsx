@@ -5,11 +5,10 @@ import Todo from "./Todo";
 import Nav from "./Nav";
 import useDisclosure from "../Hooks/useDisclose";
 import AddTodo from "./AddTodo";
-import useDescShow from "../Hooks/usedescShow";
+import useDescShow from "../Hooks/useDescShow";
 import ShowDesc from "./ShowDesc";
-import { collection, getDocs, onSnapshot } from "firebase/firestore";
+import { collection, onSnapshot } from "firebase/firestore";
 import { db } from "../firebase";
-import { useSearchParams } from "react-router-dom";
 
 function TodoContainer() {
   const { onOpen, onClose, isOpen } = useDisclosure();
