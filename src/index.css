@@ -3,6 +3,12 @@
 .heightMax {
   height: calc(100vh - 56px);
 }
+
+.blur-background {
+  filter: blur(5px);
+  pointer-events: none;
+  user-select: none;
+}
 /* 
 .heighttbf {
   min-height: 75%;

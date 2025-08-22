@@ -28,7 +28,9 @@ function Nav({ isLoggedin }) {
       <div>
         <nav className="flex justify-between items-center">
           <div>
-            <p className="text-lg font-medium">Create Account or Login</p>
+            <p className="text-lg font-medium">
+              Create Account or Login to access app
+            </p>
           </div>
           <div className="flex gap-3">
             <Link to="/signup">
