@@ -72,11 +72,10 @@ function TodoContainer() {
                 <input
                   type="text"
                   placeholder="Search your Todo..."
-                  className="bg-white p-2 ps-8 rounded-md rounded-e-none w-full outline-none"
+                  className="bg-white p-2 ps-8 rounded-md w-full outline-none"
                   onChange={filterTodo}
                 />
               </div>
-              <button className="bg-blue-400 p-2 rounded-e-md">Search</button>
               <button
                 className="bg-green-500 hover:bg-green-600 p-2 rounded-md"
                 onClick={() => {
