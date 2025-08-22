@@ -16,10 +16,10 @@ function Todo({ onOpenDesc, title, time, id, setIsEdit, onOpen }) {
   return (
     <div className="bg-gray-300 shadow-md w-full rounded-lg flex justify-between px-2 ps-4 h-20 min-h-18 items-center">
       <div onClick={onOpenDesc} className="cursor-pointer">
-        <h1>{title || "Title"}</h1>
+        <h1 className="truncate sm:w-40 w-20">{title || "Title"}</h1>
       </div>
       <div className="flex items-center">
-        <div className="me-5 text-center">
+        <div className="me-5 text-center hidden sm:block">
           Created On:
           <br />
           {time || "01-01-2001"}

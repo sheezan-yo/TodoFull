@@ -1,13 +1,19 @@
 @import "tailwindcss";
 
 .heightMax {
-  height: calc(100vh - 56px);
+  height: calc(100vh - 76px);
 }
 
 .blur-background {
   filter: blur(5px);
   pointer-events: none;
   user-select: none;
+}
+
+@media screen and (max-width: 490px) {
+  .removeResp {
+    display: none;
+  }
 }
 /* 
 .heighttbf {

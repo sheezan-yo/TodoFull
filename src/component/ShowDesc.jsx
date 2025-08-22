@@ -65,7 +65,9 @@ function ShowDesc({ id, isDesc, onCloseDesc }) {
           <AiOutlineClose className="cursor-pointer" onClick={onCloseDesc} />
         </div>
         <div className="p-4">
-          <p className="mb-2">{todoItem.desc || "No description available..."}</p>
+          <p className="mb-2 break-words">
+            {todoItem.desc || "No description available..."}
+          </p>
           <p className="text-lg font-medium text-red-500">
             Created On: {todoItem.time || "01-01-2001"}
           </p>
