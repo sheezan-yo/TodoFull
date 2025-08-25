@@ -15,6 +15,7 @@ If you are developing a production application, we recommend using TypeScript wi
 - Add todo: Can add todo with description, also store date of creation.
 - Edit todo: Can edit on your preference.
 - Delete todo: Can delete todo when done with it.
+- Search: Can search desired todo by the title.
 
 ## Technologies used:
 - Frontend: React, Tailwind CSS
